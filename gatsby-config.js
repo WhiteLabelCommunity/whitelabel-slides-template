@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabian Schultz`,
-    title: `Gatsby Deck`,
-    date: `July 30, 2018`,
+    name: `Author name`,
+    title: `Talk title`,
+    date: `23 Marzo 2019`,
+    event: `console.log("Event name");`,
+    logo: `./logo.jpg`,
+    sponsor: `./sponsor.jpg`,
   },
   plugins: [
     `gatsby-plugin-layout`,
@@ -20,6 +23,16 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-copy-images`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: '-',
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: false,
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

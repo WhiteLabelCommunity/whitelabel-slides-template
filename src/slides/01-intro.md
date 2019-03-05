@@ -1,25 +1,20 @@
-# Gatsby Deck
+# This is a main title
 
-Create presentations using Gatsby & React.
-
----
-
-> Inscrutable icons litter the face of the devices even though the research
-> community has long demonstrated that people cannot remember the meaning of
-> more than a small number of icons […] Who can remember what each icon
-> means? Not me.
-> <cite>Don Norman</cite>
+with a handy subtitle
 
 ---
 
-# 🤫
+> This is an inspirational quote about the 
+> meaning of of Life, the Universe, and Everything
+> <cite>Quote guy **"42"**</cite>
 
 ---
 
-## Slides are written in Markdown!
+## This
+### is
+#### the
+##### end 
+###### of file 1
 
-Here's the source of the first slide:
+---
 
-    # Gatsby Deck
-
-    Create presentations using Gatsby & React.

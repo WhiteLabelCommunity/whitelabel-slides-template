@@ -16,6 +16,24 @@ const Header = ({ name, title, date }) => (
   </header>
 );
 
+const Footer = ({ event, logo, sponsor }) => {
+  var sponsorImg;
+  if (sponsor) {
+    sponsorImg = "<img src='"+sponsor+"' />"
+  } 
+
+  return (
+    <footer>
+      <span className="code-font"><b>{event}</b></span>
+      <div
+      
+      dangerouslySetInnerHTML={{ __html: sponsorImg }}
+      />
+      <img src={logo} />
+    </footer>
+  )
+};
+
 class TemplateWrapper extends Component {
   NEXT = [13, 32, 39];
   PREV = 37;
@@ -31,6 +49,8 @@ class TemplateWrapper extends Component {
   navigate = ({ keyCode }) => {
     const now = this.props.data.slide.index;
     const slidesLength = this.props.slidesLength;
+
+    console.log("We have "+slidesLength+" slides");
 
     if (now) {
       if (keyCode === this.PREV && now === 1) {
@@ -71,9 +91,14 @@ class TemplateWrapper extends Component {
           onSwipedRight={this.swipeRight}
         >
           <Transition location={location}>
-            <div id="slide" style={{'width': '100%'}}>{children}</div>
+            <div id="slide" style={{ 'width': '100%' }}>{children}</div>
           </Transition>
         </Swipeable>
+        <Footer
+          event={site.siteMetadata.event}
+          logo={site.siteMetadata.logo}
+          sponsor={site.siteMetadata.sponsor}
+        />
       </div>
     );
   }
@@ -93,6 +118,9 @@ export default props => (
             name
             title
             date
+            sponsor
+            logo
+            event
           }
         }
         allSlide {

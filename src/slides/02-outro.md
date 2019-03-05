@@ -1,14 +1,16 @@
-Images can be embedded from the local filesystem!
+We can have images, cool!
 
-![xkcd on standards](./standards.png)
+![white label](./assets/white-label.jpg)
 
-(attribution: xkcd.com)
+[White label](//whitelabel.community)
 
 ---
 
 ![Monkey](//i.imgur.com/PnbINJ6.gif)
 
-🌟 Star it on [GitHub](//github.com/fabe/gatsby-deck),  
-or create your own with:
+```js
+    console.log(code);
+    function code(){
 
-    gatsby new my-slides https://github.com/fabe/gatsby-starter-deck
+    }
+```
