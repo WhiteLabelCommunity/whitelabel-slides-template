@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-@import url("../../node_modules/prismjs/themes/prism-solarizedlight.css");
+@import url("../../node_modules/prismjs/themes/prism-tomorrow.css");
 
 :root {
   --bg: #fdfdfd;
@@ -211,7 +211,6 @@ footer img {
 }
 
 .gatsby-highlight-code-line {
-  background-color: #feb;
   display: block;
   margin-right: -1em;
   margin-left: -1em;
@@ -225,7 +224,6 @@ footer img {
  * and overflow that we removed from <pre>.
  */
 .gatsby-highlight {
-  background-color: #fdf6e3;
   border-radius: 0.3em;
   margin: 0.5em 0;
   padding: 1em;
@@ -240,10 +238,6 @@ footer img {
  * 3. Adjust the position of the line numbers
  */
 .gatsby-highlight pre[class*="language-"] {
-  background-color: transparent;
-  margin: 0;
-  padding: 0;
-  overflow: initial;
-  float: left; /* 1 */
-  min-width: 100%; /* 2 */
+  border: 0px;
+  min-width: 50%;
 }

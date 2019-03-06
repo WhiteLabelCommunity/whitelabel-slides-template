@@ -9,8 +9,8 @@ We can have images, cool!
 ![Monkey](//i.imgur.com/PnbINJ6.gif)
 
 ```js
-    console.log(code);
-    function code(){
-
-    }
+function printCode(){
+    var code = "Code snippet";
+    console.log("code: ",code);
+}
 ```
