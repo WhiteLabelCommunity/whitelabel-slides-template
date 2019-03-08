@@ -41,7 +41,6 @@ SO.. LOOKS LIKE YOU WANT A
         await page.goto('http://localhost:8000/' + pageNumber, { waitUntil: 'networkidle2' });
         console.log("Page " + pageNumber + " loaded, trying to guess if this is a 404 page");
         var textContent = await page.evaluate(() => Array.from(document.querySelectorAll('h1'), element => element.textContent));
-        console.log('text: ', textContent);
         isOver = textContent.includes('Gatsby.js development 404 page');
 
         if (!isOver) {
