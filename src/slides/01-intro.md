@@ -1,20 +1,19 @@
-# This is a main title
+# Designer VS Developer
 
 with a handy subtitle
 
 ---
 
-> This is an inspirational quote about the 
-> meaning of of Life, the Universe, and Everything
-> <cite>Quote guy **"42"**</cite>
+> Let no man who is not a Mathematician
+> read the elements of my work.
+> <cite>Leonardo Da Vinci</cite>
 
 ---
 
 ## This
 ### is
 #### the
-##### end 
+##### end
 ###### of file 1
 
 ---
-

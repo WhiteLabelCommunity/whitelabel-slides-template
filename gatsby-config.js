@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     name: `Author name`,
-    title: `Talk title`,
-    date: `23 Marzo 2019`,
-    event: `console.log("Event name");`,
+    title: `Designer VS Developer`,
+    date: `06 Aprile 2019`,
+    event: `console.log("Hello World");`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
@@ -11,11 +11,19 @@ module.exports = {
     `gatsby-plugin-layout`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `slides`,
         path: `${__dirname}/src/slides`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {
