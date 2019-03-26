@@ -1,0 +1,97 @@
+/* White Label CSS */
+.e-svg1 {
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  width: 10%;
+  height: auto;
+  .cls-1 {
+    fill:none;
+    stroke:#000;
+    stroke-miterlimit:10;
+    stroke-width:2px;
+  }
+  .croce {
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    // animation-timing-function: linear;
+  }
+}
+
+.e-svg2 {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  transform: translate(-50%, -50%);
+  width: 12%;
+  height: auto;
+}
+
+.e-svg3 {
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  transform: rotate(-15deg) translate(-50%, -50%);
+  width: 10%;
+  height: auto;
+  .cls-1 {
+    width: 80%;
+    fill:#e63d4f;
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    animation-name: trans1;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    &:last-child {
+      animation-name: trans2;
+    }
+  }
+}
+
+.e-svg4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-200px,-450px);
+  width: 800px;
+  height: auto;
+  .cls-1 {
+    fill:#e63d4f;
+  }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes trans1 {
+    0% {
+        transform:translate(0);
+    }
+    50% {
+        transform:translate(10px);
+    }
+    100% {
+        transform:translate(0);
+    }
+}
+
+@keyframes trans2 {
+    0% {
+        transform:translate(0);
+    }
+    50% {
+        transform:translate(-10px);
+    }
+    100% {
+        transform:translate(0);
+    }
+}

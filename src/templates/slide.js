@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Highlight from 'react-highlight'
 
 export default ({ data, transition }) => (
   <div style={{'width': '100%'}}>
