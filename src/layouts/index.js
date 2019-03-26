@@ -5,9 +5,6 @@ import Helmet from 'react-helmet';
 import Swipeable from 'react-swipeable';
 import Transition from '../components/transition';
 
-import Element1 from '../assets/images/elemento-1.svg';
-import Element2 from '../assets/images/elemento-2.svg';
-
 import './index.css';
 import './white-label.scss';
 
@@ -21,16 +18,16 @@ const Header = ({ name, title, date }) => (
 );
 
 const Footer = ({ event, logo, sponsor }) => {
-  var sponsorImg;
+  /*var sponsorImg;
   if (sponsor) {
     sponsorImg = "<img src='"+sponsor+"' />"
-  }
+  }*/
 
   return (
     <footer>
       <span className="code-font"><b>{event}</b></span>
       <span className="code-font">noBrand = digital<b>Community</b></span>
-      <img src={logo} />
+      <img src={logo} alt="logo" />
     </footer>
   )
 };
