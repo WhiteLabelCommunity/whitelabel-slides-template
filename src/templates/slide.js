@@ -15,6 +15,7 @@ export const query = graphql`
     slide(index: { eq: $index }) {
       html
       index
+      frontmatter { title }
     }
   }
 `;
