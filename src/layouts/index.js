@@ -122,8 +122,6 @@ class TemplateWrapper extends Component {
 
   render() {
     const { location, children, site } = this.props;
-
-    console.log(children);
     return (
       <div>
       <Elements1 />
