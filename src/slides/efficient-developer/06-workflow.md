@@ -24,9 +24,3 @@ title: Workflow
 - Uniformare ambiente sviluppo / produzione
 - Rimuovere la necessità di installare librerie o ambienti (ex. XAMP)
 - Evitare problemi di versioni, aggiornamenti
-
----
-
-# GRAZIE A TUTTI!
-
-![white label](./assets/white-label.jpg)
