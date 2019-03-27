@@ -55,7 +55,8 @@ html {
 
 #slide ul {
     text-align: left;
-    margin-left: 32px;
+    margin-left: 10%;
+    font-size: 0.8em;
 }
 
 a {
