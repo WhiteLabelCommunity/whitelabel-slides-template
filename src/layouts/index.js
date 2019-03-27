@@ -8,7 +8,8 @@ import Transition from '../components/transition';
 import './index.css';
 import './white-label.scss';
 
-const Header = ({ name, title, date }) => (
+// Puoi accedere ai dati del frontmatter nella variabile frontmatter
+const Header = ({ name, title, date, frontmatter }) => (
   <header>
     <Link to="/1" className="">
       <div className="title"><span>{name}</span> {title}</div>
@@ -120,6 +121,8 @@ class TemplateWrapper extends Component {
 
   render() {
     const { location, children, site } = this.props;
+
+    console.log(children);
     return (
       <div>
       <Elements1 />
@@ -131,7 +134,7 @@ class TemplateWrapper extends Component {
         />
         <Header
           // name={site.siteMetadata.name}
-          frontmatter={children.props.data.frontmatter}
+          frontmatter={(children.props.data)?children.props.data.slide.frontmatter:{}}
           title={site.siteMetadata.title}
           date={site.siteMetadata.date}
         />
