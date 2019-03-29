@@ -154,6 +154,15 @@ header {
   user-select: none;
 }
 
+header .section {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #e63d4f;
+  text-decoration: underline;
+}
+
 header a,
 time {
   text-decoration: none;

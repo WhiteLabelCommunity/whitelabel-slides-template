@@ -10,24 +10,32 @@ import './white-label.scss';
 
 // Puoi accedere ai dati del frontmatter nella variabile frontmatter
 const Header = ({ name, title, date, frontmatter }) => (
+
   <header>
     <Link to="/1" className="">
       <div className="title"><span>{name}</span> {title}</div>
     </Link>
+    <h1 className="section">{frontmatter.title}</h1>
     <time>{date}</time>
   </header>
+
 );
 
 const Footer = ({ event, logo, sponsor }) => {
-  /*var sponsorImg;
+  var sponsorImg;
   if (sponsor) {
     sponsorImg = "<img src='"+sponsor+"' />"
-  }*/
+  } else {
+    sponsorImg = "<span class='code-font'>noBrand = digital<b>Community</b></span>"
+  }
 
   return (
     <footer>
       <span className="code-font"><b>{event}</b></span>
-      <span className="code-font">noBrand = digital<b>Community</b></span>
+      <div
+
+      dangerouslySetInnerHTML={{ __html: sponsorImg }}
+      />
       <img src={logo} alt="logo" />
     </footer>
   )
