@@ -16,7 +16,7 @@ title: MINDSET
 
 * Leggere e capire il codice
 * Massima attenzione ai dettagli
-* Problems Solving
+* Problem Solving
 
 ---
 
