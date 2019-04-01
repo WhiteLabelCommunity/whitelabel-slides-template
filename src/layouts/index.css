@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,500,700,900');
 @import url("../../node_modules/prismjs/themes/prism-tomorrow.css");
 
 :root {
@@ -122,13 +122,13 @@ a:hover {
 
 h1 {
   font-size: 200%;
-
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 120%;
-
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
