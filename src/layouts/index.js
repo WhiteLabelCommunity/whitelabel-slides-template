@@ -14,6 +14,7 @@ const Header = ({ name, title, date, frontmatter }) => (
     <Link to="/1" className="">
       <div className="title"><span>{name}</span> {title}</div>
     </Link>
+    <h1>{frontmatter.title}</h1>
     <time>{date}</time>
   </header>
 );
