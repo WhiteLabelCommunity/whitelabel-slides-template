@@ -14,7 +14,12 @@ title: MINDSET
 
 ---
 
-* Leggere e capire il codice
+# Leggere e capire il codice
+
+![white label](./assets/codeworks.jpg)
+
+---
+
 * Massima attenzione ai dettagli
 * Problem Solving
 
