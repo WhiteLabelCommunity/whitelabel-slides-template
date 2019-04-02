@@ -4,7 +4,7 @@
 :root {
   --bg: #fdfdfd;
   --meta: #888;
-  --accent: #3178cd;
+  --accent: #e63d4f;
   --text: black;
   --base: 1.5rem;
 }
@@ -56,8 +56,12 @@ html {
 #slide ul {
     text-align: left;
     margin-left: 32px;
+    font-size: 80%;
 }
 
+p {
+  font-size: 80%;
+}
 a {
   color: var(--text);
 
@@ -121,13 +125,13 @@ a:hover {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 180%;
   font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 120%;
+  font-size: 110%;
   font-weight: 900;
   margin-bottom: 0.5rem;
 }

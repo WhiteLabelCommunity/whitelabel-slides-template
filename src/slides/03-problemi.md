@@ -37,11 +37,11 @@ Quindi a volte si pensa più a quanto una soluzione sia bella, senza pensare al 
 
 - i developer sono stilisticamente ottusi 😘
 - chi non sviluppa non conosce spesso i vincoli e le limitazioni
-- per certi versi sono meno “comunicatori” e pronti a capire le limitazioni impost
+- per certi versi sono meno “comunicatori” e pronti a capire le limitazioni imposte
 
 ---
 
 # When designers do get more power than their developer counterparts, they build weaker products.
 <cite>John Maeda, Design luminary</cite>
 
-[🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)
+[Link 🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)

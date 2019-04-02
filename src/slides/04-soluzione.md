@@ -23,16 +23,10 @@ Il design, e i designer, oggi sono posti più in "alto" rispetto al development 
 ---
 
 
-<big>🧞 </big>
-## Cosa pensa un developer?
+<big>👇🏼</big>
+## La nostra conclusione
 
-- i designer sono troppo “pixel perfect”, nel progettare così come nel pensare 😜
-- il processo creativo è un problema: un designer oggi progetta una sezione di un sito o un’app in un certo modo, poi si sveglia il giorno dopo e stravolge completamente quanto già , quasi in loop
-- far emergere i vincoli imposti dallo sviluppo (server, linguaggi di programmazione, etc…) verso chi si occupa di design o marketing
-
----
-
-# When designers do get more power than their developer counterparts, they build weaker products.
-<cite>John Maeda, Design luminary</cite>
-
-[🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)
+- Mobile first: pensare sempre mobile first, sia nella progettazione di un sito, oltre che di un’app (già oggi il rapporto sul web si avvicina a 70/30)
+- Creare design completi e pronti per lo sviluppo
+- Progettare un sistema e non solo pagine (chi conosce il termine DLS?)
+- Comunicare di più e meglio
