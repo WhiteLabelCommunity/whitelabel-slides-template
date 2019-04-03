@@ -10,6 +10,11 @@ title: "I problemi"
 ![white label](./assets/problema-1.png)
 
 ---
+
+![white label](./assets/problema-2.png)
+
+---
+
 <big>❓</big>
 ## Perché succede?
 
@@ -24,7 +29,7 @@ Quindi a volte si pensa più a quanto una soluzione sia bella, senza pensare al 
 ---
 
 <div class="row">
-<div class="col-6">
+<div class="col-6 box-shadow">
 
 ![white label](./assets/web-designer-developer-jokes-humour-funny-14.jpg)
 
@@ -42,7 +47,7 @@ Quindi a volte si pensa più a quanto una soluzione sia bella, senza pensare al 
 
 ---
 <div class="row">
-<div class="col-6">
+<div class="col-6 box-shadow">
 
 ![white label](./assets/yougetajira.png)
 

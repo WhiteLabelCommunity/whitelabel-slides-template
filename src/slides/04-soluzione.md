@@ -22,7 +22,7 @@ Il design, e i designer, oggi sono posti più in "alto" rispetto al development 
 
 ---
 <div class="row">
-<div class="col-6">
+<div class="col-6 box-shadow">
 
 ![white label](./assets/styleguidewontuse.jpg)
 

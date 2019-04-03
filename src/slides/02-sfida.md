@@ -1,10 +1,21 @@
 ---
 title: "La sfida"
 ---
+<div class="box-shadow">
 
 ![white label](./assets/civil-war-cap-tony-179110.jpg)
 
+</div>
+
 ---
+
+<div class="row">
+<div class="col-6 box-shadow">
+
+![white label](./assets/pas.jpg)
+
+</div>
+<div class="col-6 text-left align-self-center">
 
 # Il Designer
 
@@ -15,7 +26,17 @@ Proprio a causa del lavoro in sè, solo una persona può creare un logo o un'int
 
 <small >* (si perché se date un consiglio a un designer *potrebbe succedere* che lo convertirà in critica 😃)</small>
 
+</div>
+</div>
+
 ---
+<div class="row">
+<div class="col-6 box-shadow">
+
+![white label](./assets/angelo.gif)
+
+</div>
+<div class="col-6 text-left align-self-center">
 
 # Il Developer
 
@@ -23,6 +44,11 @@ Sulla carta è una specie introversa, che lascia raramente la propria caverna fa
 La realtà, anche in questo caso, è però diversa.
 
 Scrivere codice, creare prodotti oggi segue un approccio più "collaborativo". Sono proliferati siti come Github, Stackoverflow, Codepen o altri che hanno permesso a chi sviluppa di aprirsi all'esterno, sia condividendo il proprio materiale che aiutando altri sviluppatori.
+
+E alcuni sono proprio fuori di testa! 😬
+
+</div>
+</div>
 
 ---
 

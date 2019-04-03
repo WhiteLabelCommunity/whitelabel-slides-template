@@ -1,5 +1,5 @@
 <div class="row">
-<div class="col-6">
+<div class="col-6 box-shadow">
 
 ![white label](./assets/designdevunicorn.jpg)
 </div>
@@ -19,5 +19,12 @@ Proprio a causa di questi “buchi” di comunicazione e preparazione, sia didat
 
 ---
 
+## Qualche link interessante:
+
+[https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ 🔗](https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ)
+
+[https://www.invisionapp.com/inside-design/becoming-a-designer-who-codes/ 🔗](https://www.invisionapp.com/inside-design/becoming-a-designer-who-codes/)
+
+[https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important 🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)
 
 ---
