@@ -38,6 +38,7 @@ SO.. LOOKS LIKE YOU WANT A
     var files = [];
     while (!isOver) {
         console.log("Hold on, loading page " + pageNumber);
+        
         await page.goto('http://localhost:8000/' + pageNumber, { waitUntil: 'networkidle2' });
         console.log("Page " + pageNumber + " loaded, trying to guess if this is a 404 page");
         var textContent = await page.evaluate(() => Array.from(document.querySelectorAll('h1'), element => element.textContent));
@@ -46,7 +47,7 @@ SO.. LOOKS LIKE YOU WANT A
         if (!isOver) {
 
             console.log("Ok, it's not the final page, going to take some screenshots ;)");
-            await page.pdf({ path: 'slide_' + pageNumber + '.pdf' , format: 'A4', landscape: true });
+            await page.pdf({ path: 'slide_' + pageNumber + '.pdf', width: '1920px', height: "1080px" });
             console.log("Wow some naked pictures, i'll keep them for myself.");
             files.push('slide_' + pageNumber + '.pdf');
         }
@@ -63,14 +64,14 @@ SO.. LOOKS LIKE YOU WANT A
 
         files.map(file => {
             try {
-                fs.unlinkSync('./'+file)
+                fs.unlinkSync('./' + file)
                 //file removed
             } catch (err) {
                 console.error(err)
             }
         });
 
-        
+
 
     });
 
