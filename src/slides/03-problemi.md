@@ -52,14 +52,14 @@ Quindi a volte si pensa più a quanto una soluzione sia bella, senza pensare al 
 ![white label](./assets/yougetajira.png)
 
 </div>
-<div class="col-6 text-left">
+<div class="col-6 text-left align-self-center">
 
 ## Cosa pensa un designer?
 
 - i developer sono stilisticamente ottusi 😘
 - ma perché questi vogliono una Jira per tutto?
 - non è semplice far capire quanto sia importante l'implementazione di un design system all'interno del progetto
-- chi sviluppa non immagina quanta complessità implicita ci sia dietro a un ragionamento di design (che può comprendere equilibri visivi, tipografia, coerenza di pattern UI, coerenza di brand, usabilità, specifiche di contesto/piattaforma, tone of voice, micro-interazioni, psicologia visiva, etc…)
+- chi sviluppa non immagina la complessità implicita che sta dietro a un ragionamento di design (equilibro, tipografia, coerenza di pattern e di brand, usabilità, specifiche di contesto/piattaforma, tone of voice, interazioni, psicologia visiva, etc...)
 
 </div>
 </div>
