@@ -9,13 +9,15 @@ Project development best practices
 
 ---
 
+<div class="row">
+<div class="col-6 align-self-center">
+
+<img src="./assets/developers_projects.jpg" height="500"/>
+
+</div>
+<div class="col-6 text-left">
+
 ## Cosa vuol dire essere un Efficient Developer?
-
----
-
-![white label](./assets/developers_projects.jpg)
-
----
 
 - Introdurre tools e metodologie che incrementano la qualità del lavoro prodotto
 - Diminuire il tempo dedicato alla risoluzione di bug e al reperire informazioni
@@ -23,6 +25,9 @@ Project development best practices
 - Avere il totale controllo del codice e dei progetti
 - Rimanere in continuo aggiornamento personale
 - Tempo investito oggi = Efficienza guadagnata domani
+
+</div>
+</div>
 
 ---
 

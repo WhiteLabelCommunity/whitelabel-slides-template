@@ -6,10 +6,6 @@ title: ARCHITETTURA - Documentazione
 
 ---
 
-![white label](./assets/docs.png)
-
----
-
 # Project Wiki
 
 - fornisce memoria storica sul progetto (facendo risparmiare tempo)
@@ -31,13 +27,19 @@ title: ARCHITETTURA - Documentazione
 - Tempo di trasferimento delle nozioni azzerato
 
 ---
+
+<div class="row">
+<div class="col-6 align-self-center">
+
+<img src="./assets/code_from_other_developers.jpg" height="400"/>
+
+</div>
+<div class="col-6 text-left">
+
 # Code Documentation
-
----
-
-![white label](./assets/code_from_other_developers.jpg)
-
----
 
 - Facilita la manutenzione del codice
 - Fornisce immediatamente il contesto logico
+
+</div>
+</div>
