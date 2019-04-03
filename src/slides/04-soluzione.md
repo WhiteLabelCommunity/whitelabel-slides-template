@@ -21,12 +21,21 @@ Il design, e i designer, oggi sono posti più in "alto" rispetto al development 
 ![white label](./assets/new-flow.png)
 
 ---
+<div class="row">
+<div class="col-6">
 
+![white label](./assets/styleguidewontuse.jpg)
 
-<big>👇🏼</big>
+</div>
+<div class="col-6 text-left align-self-center">
+
 ## La nostra conclusione
 
 - Mobile first: pensare sempre mobile first, sia nella progettazione di un sito, oltre che di un’app (già oggi il rapporto sul web si avvicina a 70/30)
 - Creare design completi e pronti per lo sviluppo
 - Progettare un sistema e non solo pagine (chi conosce il termine DLS?)
+- Se possibile creare prototipi completi dell'app o sito web
 - Comunicare di più e meglio
+
+</div>
+</div>

@@ -258,3 +258,7 @@ footer img {
   border: 0px;
   min-width: 50%;
 }
+
+.text-left {
+  text-align: left;
+}
