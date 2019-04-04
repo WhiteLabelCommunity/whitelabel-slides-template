@@ -5,8 +5,11 @@
 </div>
 <div class="col-6 text-left align-self-center">
 
-## Designer & Developer
+## Become a Unicorn
 Proprio a causa di questi “buchi” di comunicazione e preparazione, sia didattica che nei materiali, negli ultimi anni è nata una nuova figura, quella dello UX Engineer (UXE), un ruolo ibrido che colma lo spazio tra i due mondi, senza poter però sostituirsi a uno dei due.
+
+Un annuncio di Google per questa figura cita:<br /><i>"As a UX Engineer, you’ll weave together strong design aesthetics with technical know-how"</i>.<br />
+[https://design.google/jobs/ux-engineer/ 🔗](https://design.google/jobs/ux-engineer/)
 
 **UX Design -> UX Engineer -> Dev & Ops**
 </div>
@@ -27,4 +30,6 @@ Proprio a causa di questi “buchi” di comunicazione e preparazione, sia didat
 
 [https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important 🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)
 
----
+[https://uxengineer.com/skills-needed-become-a-ux-engineer/ 🔗](https://uxengineer.com/skills-needed-become-a-ux-engineer/)
+
+# Grazie!

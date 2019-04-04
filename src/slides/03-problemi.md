@@ -31,10 +31,10 @@ Quindi a volte si pensa più a quanto una soluzione sia bella, senza pensare al 
 <div class="row">
 <div class="col-6 box-shadow">
 
-![white label](./assets/web-designer-developer-jokes-humour-funny-14.jpg)
+![white label](./assets/dev.jpg)
 
 </div>
-<div class="col-6 text-left">
+<div class="col-6 text-left align-self-center">
 
 ## Cosa pensa un developer?
 
