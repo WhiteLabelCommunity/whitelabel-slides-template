@@ -17,7 +17,7 @@ title: MINDSET
 <div class="row">
 <div class="col-6 align-self-center">
 
-<img src="./assets/codeworks.jpg" height="500"/>
+<img src="./assets/photo_2019-04-04 21.25.31.jpeg" height="500"/>
 
 </div>
 <div class="col-6 text-left">
