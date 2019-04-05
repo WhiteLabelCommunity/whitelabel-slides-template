@@ -7,16 +7,15 @@
 ---
 
 #Sabato 4 Maggio
-<div class="row justify-content-center">
+<div class="row equal justify-content-center">
 <div class="col-4"> 
 
 ###📍 Sellalab Biella
 
-Parleremo di:
 
-- Figma
+- Overview on Figma
 - React
-- Life as a Dev
+- Perchè fare il web developer: miti, dati e storie di coraggio
 
 </div>
 </div>
@@ -35,16 +34,66 @@ Parleremo di:
 </div>
 <div class="col-4"> 
 
-###The Lean Startup
+##The Lean Startup
 by Eric Ries
 
 
-
-</div>
-</div>
-
-
 <a href="https://wheelofnames.com/">🎯 Spin the Wheel!</a>
+
+</div>
+</div>
+
+
+
+---
+
+#Seguiteci e unitevi alle community
+
+<div class="row mt-5 mb-5 justify-content-center">
+<div class="col-4 text-center"> 
+
+<a href="https://www.facebook.com/whitelabelcommunity/">
+<span class="fab fa-facebook-square fa-2x"></span><br> whitelabelcommunity</a>
+
+</div>
+
+<div class="col-4 text-center"> 
+
+<a href="https://www.facebook.com/whitelabelcommunity/">
+<span class="fab fa-instagram fa-2x"></span><br>  @whitelabelcommunity</a>
+
+</div>
+
+<div class="col-4 text-center "> 
+
+<a href="http://whitelabel.community">
+<span class="fab fa-meetup fa-2x"></span><br>
+whitelabel.community</a>
+
+</div>
+
+<div class="col-4 mt-5 text-center "> 
+
+<a href="https://t.me/joinchat/BOBM-xeyedgOFg0ZDqzpaA">
+<i class="fab fa-telegram fa-2x"></i><br>
+Gruppo telegram</a>
+
+</div>
+
+<div class="col-4 mt-5 text-center "> 
+
+<a href="https://join.slack.com/t/whitelabelcommunity/shared_invite/enQtNTg4MDUyNjY0MTE0LTA3MzQ1MzNhYmU1OGZmMDMwNGE1YWQ2YWZiNTcxZjUzZTkxZjFjMzgwN2M3ZWU2YTQ2OTY5MTdjNTZhY2JiM2E">
+<i class="fab fa-slack fa-2x"></i><br>
+Canale slack</a>
+
+</div>
+
+
+</div>
+
+###Se volete lasciare un feedback su questo meetup: <a href="http://feedback.whitelabel.community">feedback.whitelabel.community</a>
+
+
 
 
 ---
