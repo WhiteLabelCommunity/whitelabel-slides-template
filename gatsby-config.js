@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     name: `White Label`,
-    title: `Titolo`,
+    title: `Introduzione a Node.js`,
     date: `06 Aprile 2019`,
     event: `console.log("Hello World");`,
     logo: `/logo.jpg`,
