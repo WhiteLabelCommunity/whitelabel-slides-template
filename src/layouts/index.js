@@ -4,7 +4,6 @@ import { Link, navigate, StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import Swipeable from 'react-swipeable';
 import Transition from '../components/transition';
-import { Container, Row, Col } from 'react-bootstrap';
 
 import './index.css';
 import './white-label.scss';
