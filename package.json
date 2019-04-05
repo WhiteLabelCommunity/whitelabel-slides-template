@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "author": "Fabian Schultz <desk@fabianschultz.com>",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.0.33",
     "gatsby-plugin-layout": "^1.0.1",
     "gatsby-plugin-offline": "^2.0.5",
@@ -21,6 +22,7 @@
     "node-sass": "^4.11.0",
     "prismjs": "^1.15.0",
     "react": "^16.5.1",
+    "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-highlight": "^0.12.0",

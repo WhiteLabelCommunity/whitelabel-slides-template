@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    name: `Author name`,
+    name: `White Label`,
     title: `Designer VS Developer`,
     date: `06 Aprile 2019`,
     event: `console.log("Hello World");`,
