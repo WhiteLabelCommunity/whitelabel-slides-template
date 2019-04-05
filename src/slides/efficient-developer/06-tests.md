@@ -47,12 +47,12 @@ title: ARCHITETTURA - Tests
 <div class="row">
 <div class="col-6 align-self-center">
 
-<img src="https://i.redd.it/ros0xofdrup21.jpg" height="350"/>
+<img src="https://i.giphy.com/l0MYSpvx4pnsoMNz2.gif" width="450"/>
 
 </div>
 <div class="col-6 text-left">
 
-# Unit tests
+# Unit & Integration tests
 
 - Verificano la stabilità dei metodi
 - Permettono uno sviluppo TEST-DRIVEN

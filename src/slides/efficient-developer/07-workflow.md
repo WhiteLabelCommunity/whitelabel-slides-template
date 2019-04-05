@@ -16,9 +16,9 @@ title: WORKFLOW
 
 # Pull-Requests & Code Reviews
 
-- Responsabilizzare i membri del team
-- Assicurare un doppio controllo sul codice
-- Garantire una coerenza della code-base
+- Responsabilizzano i membri del team
+- Assicurano un doppio controllo sul codice
+- Garantiscono una coerenza della code-base
 
 </div>
 </div>
@@ -35,9 +35,9 @@ title: WORKFLOW
 
 # Continuous Integration
 
-- Automatizzare i controlli sul progetto (tests) ad ogni aggiornamento
-- Non permettere il merge di codice con conflitti o test non superati
-- Incoraggiare i developer ad effettuare commit continui
+- Automatizza i controlli sul progetto (tests) ad ogni aggiornamento
+- Non permette il merge di codice con conflitti o test non superati
+- Incoraggia i developer ad effettuare commit continui
 
 </div>
 </div>
@@ -47,6 +47,6 @@ title: WORKFLOW
 # Docker
 
 - Ambiente virtuale di sviluppo
-- Uniformare ambiente sviluppo / produzione
-- Rimuovere la necessità di installare librerie o ambienti (ex. XAMP)
-- Evitare problemi di versioni, aggiornamenti
+- Uniforma ambiente sviluppo / produzione
+- Rimuove la necessità di installare librerie o ambienti (ex. XAMP)
+- Evita problemi di versioni, aggiornamenti
