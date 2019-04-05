@@ -35,7 +35,7 @@ Il design, e i designer, oggi sono posti più in "alto" rispetto al development 
 - Creare design completi e pronti per lo sviluppo
 - Progettare un sistema e non solo pagine (chi conosce il termine DLS?)
 - Se possibile creare prototipi completi dell'app o sito web
-- Comunicare di più e meglio
+- Comunicare... e immedesimarsi l'uno nell'altro
 
 </div>
 </div>

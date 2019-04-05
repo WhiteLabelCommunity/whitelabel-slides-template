@@ -24,7 +24,20 @@ Quindi a volte si pensa più a quanto una soluzione sia bella, senza pensare al 
 
 ---
 
-![white label](./assets/problema-1.png)
+<div class="row">
+<div class="col-7 box-shadow">
+
+![white label](./assets/campo-comete.png)
+
+</div>
+<div class="col-5 align-self-center">
+
+![white label](./assets/performance.jpg)
+
+Tutto bello, tutto figo.<br />
+Un design web può essere fighissimo ma bisogna tenere conto delle performance e delle tecnologie necessarie per poterlo realizzare.
+
+</div>
 
 ---
 

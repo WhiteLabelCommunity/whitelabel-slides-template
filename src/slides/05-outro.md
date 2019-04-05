@@ -22,6 +22,26 @@ Un annuncio di Google per questa figura cita:<br /><i>"As a UX Engineer, you’l
 
 ---
 
+<div class="row">
+<div class="col-4 box-shadow">
+
+![white label](./assets/web-designer-developer-jokes-humour-funny-5.jpg)
+
+</div>
+<div class="col-4 box-shadow">
+
+![white label](./assets/web-designer-developer-jokes-humour-funny-14.jpg)
+
+</div>
+<div class="col-4 box-shadow">
+
+![white label](./assets/photo6050693594269986790.jpg)
+
+</div>
+</div>
+
+---
+
 ## Qualche link interessante:
 
 [https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ 🔗](https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ)
@@ -29,6 +49,8 @@ Un annuncio di Google per questa figura cita:<br /><i>"As a UX Engineer, you’l
 [https://www.invisionapp.com/inside-design/becoming-a-designer-who-codes/ 🔗](https://www.invisionapp.com/inside-design/becoming-a-designer-who-codes/)
 
 [https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important 🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)
+
+[https://design.google/library/john-maeda-interview-new-design-religion/ 🔗](https://design.google/library/john-maeda-interview-new-design-religion/)
 
 [https://uxengineer.com/skills-needed-become-a-ux-engineer/ 🔗](https://uxengineer.com/skills-needed-become-a-ux-engineer/)
 
