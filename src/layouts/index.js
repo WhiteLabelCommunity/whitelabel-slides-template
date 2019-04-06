@@ -8,25 +8,34 @@ import Transition from '../components/transition';
 import './index.css';
 import './white-label.scss';
 
-const Header = ({ name, title, date }) => (
+// Puoi accedere ai dati del frontmatter nella variabile frontmatter
+const Header = ({ name, title, date, frontmatter }) => (
+
   <header>
     <Link to="/1" className="">
       <div className="title"><span>{name}</span> {title}</div>
     </Link>
+    <h1 className="section">{frontmatter.title}</h1>
     <time>{date}</time>
   </header>
+
 );
 
 const Footer = ({ event, logo, sponsor }) => {
-  /*var sponsorImg;
+  var sponsorImg;
   if (sponsor) {
     sponsorImg = "<img src='"+sponsor+"' />"
-  }*/
+  } else {
+    sponsorImg = "<span class='code-font'>noBrand = digital<b>Community</b></span>"
+  }
 
   return (
     <footer>
       <span className="code-font"><b>{event}</b></span>
-      <span className="code-font">noBrand = digital<b>Community</b></span>
+      <div
+
+      dangerouslySetInnerHTML={{ __html: sponsorImg }}
+      />
       <img src={logo} alt="logo" />
     </footer>
   )
@@ -37,7 +46,7 @@ const Elements1 = () => (
   <svg viewBox="0 0 44.58 28.54" className="e-svg1">
     <g id="Livello_2" data-name="Livello 2">
       <path d="M9.35,14.59,5.53,13.48l1-3.58a.53.53,0,0,0-.37-.66h0a.53.53,0,0,0-.66.36l-1,3.59L.66,12.08a.52.52,0,0,0-.64.35H0a.52.52,0,0,0,.36.65l3.81,1.1-1,3.58a.55.55,0,0,0,.37.67h0a.53.53,0,0,0,.66-.36l1-3.59,3.82,1.11a.52.52,0,0,0,.64-.36h0A.52.52,0,0,0,9.35,14.59Z" className="croce"/>
-      <ellipse class="cls-1" cx="30.31" cy="14.27" rx="13.27" ry="13.26" transform="matrix(0.28, -0.96, 0.96, 0.28, 8.18, 39.43)"/>
+      <ellipse className="cls-1" cx="30.31" cy="14.27" rx="13.27" ry="13.26" transform="matrix(0.28, -0.96, 0.96, 0.28, 8.18, 39.43)"/>
     </g>
   </svg>
 
@@ -59,8 +68,8 @@ const Elements3 = () => (
   <svg  className="e-svg3">
     <g id="Livello_2" data-name="Livello 2">
       <g id="Livello_1-2" data-name="Livello 1">
-        <rect class="cls-1" x="-1.21" y="12.58" width="101.15" height="9.38" rx="2.83" transform="translate(-2.81 13.69) rotate(-15.35)"/>
-        <rect class="cls-1" x="23.07" y="27.49" width="101.15" height="9.38" rx="2.83" transform="translate(-5.89 20.65) rotate(-15.35)"/>
+        <rect className="cls-1" x="-1.21" y="12.58" width="101.15" height="9.38" rx="2.83" transform="translate(-2.81 13.69) rotate(-15.35)"/>
+        <rect className="cls-1" x="23.07" y="27.49" width="101.15" height="9.38" rx="2.83" transform="translate(-5.89 20.65) rotate(-15.35)"/>
       </g>
     </g>
   </svg>
@@ -72,7 +81,7 @@ const Elements4 = () => (
   <svg viewBox="0 0 109.49 82.66" className="e-svg4">
     <g id="Livello_2" data-name="Livello 2">
       <g id="Livello_1-2" data-name="Livello 1">
-        <rect class="cls-1" x="4.17" y="9.93" width="101.15" height="62.8" transform="translate(-8.99 15.97) rotate(-15.35)"/>
+        <rect className="cls-1" x="4.17" y="9.93" width="101.15" height="62.8" transform="translate(-8.99 15.97) rotate(-15.35)"/>
       </g>
     </g>
   </svg>
@@ -121,6 +130,7 @@ class TemplateWrapper extends Component {
   render() {
     const { location, children, site } = this.props;
 
+    console.log(children);
     return (
       <div>
       <Elements1 />
@@ -130,8 +140,10 @@ class TemplateWrapper extends Component {
         <Helmet
           title={`${site.siteMetadata.title} — ${site.siteMetadata.name}`}
         />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css" />
         <Header
           // name={site.siteMetadata.name}
+          frontmatter={(children.props.data)?children.props.data.slide.frontmatter:{}}
           title={site.siteMetadata.title}
           date={site.siteMetadata.date}
         />
