@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    name: `Author name`,
-    title: `Designer VS Developer`,
+    name: `White Label`,
+    title: `Introduzione`,
     date: `06 Aprile 2019`,
     event: `console.log("Hello World");`,
-    logo: `./logo.jpg`,
+    logo: `logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
   plugins: [
