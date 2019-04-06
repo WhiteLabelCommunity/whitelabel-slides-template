@@ -268,5 +268,6 @@ footer img {
 }
 
 code[class*=language-]{
-  font-size: 15px !important;
+  font-size: 20px !important;
+  line-height: 1;
 }
