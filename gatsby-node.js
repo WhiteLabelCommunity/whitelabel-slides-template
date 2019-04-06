@@ -38,7 +38,8 @@ exports.createPages = ({ actions, createNodeId, graphql }) => {
         edges {
           node {
             fileAbsolutePath,
-            html
+            html,
+            frontmatter { title }
           }
         }
       }
@@ -50,8 +51,9 @@ exports.createPages = ({ actions, createNodeId, graphql }) => {
 
     const slides = result.data.allMarkdownRemark.edges;
     slides.sort((a, b) => a.node.fileAbsolutePath > b.node.fileAbsolutePath ? 1 : -1)
+    
     const nodes = slides.flatMap((s) => s.node.html.split('<hr>').map((html) => ({
-      node: s.node, html
+      node: s.node, html,
     })))
 
     nodes.forEach(({ node, html }, index) => {
@@ -68,6 +70,7 @@ exports.createPages = ({ actions, createNodeId, graphql }) => {
           type: `Slide`,
           contentDigest: digest,
         },
+        frontmatter: node.frontmatter,
         html: html,
         index: index + 1,
       });
