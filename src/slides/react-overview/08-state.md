@@ -33,22 +33,3 @@ title: "Gestione dello stato"
   ```
 </div>
 </div>
-
----
-
-<div class="row">
-<div class="col-6 align-self-center">
-
-# Gestione dello stato nei Componenti
-
-</div>
-<div class="col-6 text-left">
-
-* Stateless Components
-  * Non gestiscono il loro stato interno
-* Stateful Components
-  * Implementano tutti i metodi necessari per gestire il proprio stato
-</div>
-</div>
-
----

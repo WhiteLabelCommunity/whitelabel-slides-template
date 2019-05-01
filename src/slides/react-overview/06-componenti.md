@@ -146,7 +146,3 @@ class Hello extends Component {
 
 </div>
 </div>
-
----
-
-# Struttura di un componente
