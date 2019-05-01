@@ -1,23 +1,3 @@
----
-title: "CIAO"
----
+# Figma Overview
 
-# Designer VS Developer
-
-with a handy subtitle
-
----
-
-> Let no man who is not a Mathematician
-> read the elements of my work.
-> <cite>Leonardo Da Vinci</cite>
-
----
-
-## This
-### is
-#### the
-##### end
-###### of file 1
-
----
+una introduzione a uno dei tool di design più utilizzati
