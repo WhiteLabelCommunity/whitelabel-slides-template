@@ -1,18 +1,21 @@
-
 ---
-
+title: "Il tool"
+---
 ![white label](./assets/figma-logo.png)
 
 ## Cos'è Figma?
 
-Figma fondamentalmente è un **tool per sviluppare grafica"**.
+Figma fondamentalmente è un **"tool per sviluppare grafica"**.
+
 Può essere usato per gli utilizzi più disparati: biglietti da visita, volantini, app, web design, software, vettoriali e tutto quello che si è da sempre fatto con tool come Illustrator, Sketch e altri.
+
+**Ma Figma è soprattutto uno strumento online collaborativo per il design di interfacce.**
 
 ---
 
 <div class="box-shadow">
 
-<video controls width="90%">
+<video controls width="80%">
     <source src="./Hero_Animation_60fps.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -21,57 +24,34 @@ Può essere usato per gli utilizzi più disparati: biglietti da visita, volantin
 
 ---
 
+# Do for interface design what Google Docs did for text editing.
+<cite>Dylan Field, founder Figma</cite>
+
+---
+
 <div class="row">
 <div class="col-6 box-shadow">
 
-![white label](./assets/pas.jpg)
+![white label](./assets/figma-2.svg)
 
 </div>
 <div class="col-6 text-left align-self-center">
 
-# Il Designer
+## Figma funziona nel browser
 
-Solitamente è spacciato come una creatura estroversa e socievole, estrosa e eccentrica.
-La realtà è però diversa.
+Viene offerto come Saas, non dipende dalla piattaforma come altri tool come Sketch o Principle che funzionano solo su Mac.
 
-Proprio a causa del lavoro in sè, solo una persona può creare un logo o un'interfaccia di un prodotto, lasciando ad altri designer un ruolo più di "critica"* che non di reale supporto o aiuto.
+Si può utilizzare nel browser, loggandosi sul sito [figma.com](https://www.figma.com), oppure scaricando le desktop app presenti sia per Windows che per Mac.
 
-<small >* (si perché se date un consiglio a un designer *potrebbe succedere* che lo convertirà in critica 😃)</small>
-
-</div>
-</div>
-
----
-<div class="row">
-<div class="col-6 box-shadow">
-
-![white label](./assets/angelo.gif)
-
-</div>
-<div class="col-6 text-left align-self-center">
-
-# Il Developer
-
-Sulla carta è una specie introversa, che lascia raramente la propria caverna fatta di monitor e tastiere inutilmente rumorose.
-La realtà, anche in questo caso, è però diversa.
-
-Scrivere codice, creare prodotti oggi segue un approccio più "collaborativo". Sono proliferati siti come Github, Stackoverflow, Codepen o altri che hanno permesso a chi sviluppa di aprirsi all'esterno, sia condividendo il proprio materiale che aiutando altri sviluppatori.
-
-E alcuni sono proprio fuori di testa! 😬
 
 </div>
 </div>
 
 ---
 
-![white label](./assets/photo5823564900339921468.jpg)
+# Figma Aims To Be A GitHub For Designers
+<cite>Articolo su Fast Company</cite>
+
+[Link 🔗](https://www.fastcompany.com/3054382/figma-aims-to-be-a-github-for-designers)
 
 ---
-
-## Designer vs Developer
-
-Creatività contro razionalità, ispirazione contro ragione.<br>
-Spesso risulta difficile capire cosa fa l'altro, a causa di tante idee sbagliate e preconcetti.
-Entrambi sembrano sospettosi dell'altro, entrambi pensano che il problema derivi dall'altro.
-
-E' proprio così?

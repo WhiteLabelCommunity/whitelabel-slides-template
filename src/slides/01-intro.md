@@ -1,3 +1,3 @@
 # Figma Overview
 
-una introduzione a uno dei tool di design più utilizzati
+una introduzione a uno dei tool di design più completi e innovativi
