@@ -55,3 +55,21 @@ Si può utilizzare nel browser, loggandosi sul sito [figma.com](https://www.figm
 [Link 🔗](https://www.fastcompany.com/3054382/figma-aims-to-be-a-github-for-designers)
 
 ---
+
+<div class="row">
+<div class="col-6 box-shadow">
+
+![white label](./assets/figma-3.png)
+
+</div>
+<div class="col-6 text-left align-self-center">
+
+## Version history
+
+Proprio come una repo Git, con Figma si ha una cronologia delle modifiche e versioni dei files. Si possono visualizzare le versioni precedenti di un file e ripristinare o duplicare qualsiasi versione. Le versioni vengono salvate automaticamente e **basta un click per tornare "indietro nel tempo"** e recuperare file, componenti o interi progetti.
+
+
+</div>
+</div>
+
+---
