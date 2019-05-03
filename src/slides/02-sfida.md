@@ -30,18 +30,40 @@ Può essere usato per gli utilizzi più disparati: biglietti da visita, volantin
 ---
 
 <div class="row">
-<div class="col-6 box-shadow">
+<div class="col-6 box-shadow align-self-center">
 
-![white label](./assets/figma-2.svg)
+![white label](./assets/figma-2.png)
 
 </div>
 <div class="col-6 text-left align-self-center">
 
 ## Figma funziona nel browser
 
-Viene offerto come Saas, non dipende dalla piattaforma come altri tool come Sketch o Principle che funzionano solo su Mac.
+Viene offerto come software as a service, non dipende dalla piattaforma come altri tool come Sketch o Principle che funzionano solo su Mac.
 
 Si può utilizzare nel browser, loggandosi sul sito [figma.com](https://www.figma.com), oppure scaricando le desktop app presenti sia per Windows che per Mac.
+
+
+</div>
+</div>
+
+---
+
+<div class="row">
+<div class="col-6 box-shadow align-self-center">
+
+![white label](./assets/figma-5.png)
+
+</div>
+<div class="col-6 text-left align-self-center">
+
+## Components
+
+**I componenti sono elementi dell'interfaccia che possono essere riutilizzati tra i uno o più progetti.** Aiutano a mantenere coerenza ed efficienza nei progetti, specialmente più strutturati.
+
+Lo stesso componente può essere utilizzato in più posti contemporaneamente, ognuno con dimensioni diverse con modifiche e differenze locali (istanze del componente master).
+
+Abbinati ai constraints (vincoli)... sono una bomba!
 
 
 </div>
@@ -57,7 +79,7 @@ Si può utilizzare nel browser, loggandosi sul sito [figma.com](https://www.figm
 ---
 
 <div class="row">
-<div class="col-6 box-shadow">
+<div class="col-6 box-shadow align-self-center">
 
 ![white label](./assets/figma-3.png)
 
@@ -66,10 +88,60 @@ Si può utilizzare nel browser, loggandosi sul sito [figma.com](https://www.figm
 
 ## Version history
 
-Proprio come una repo Git, con Figma si ha una cronologia delle modifiche e versioni dei files. Si possono visualizzare le versioni precedenti di un file e ripristinare o duplicare qualsiasi versione. Le versioni vengono salvate automaticamente e **basta un click per tornare "indietro nel tempo"** e recuperare file, componenti o interi progetti.
+Proprio come una repo Git, con Figma si ha una cronologia delle modifiche e versioni dei files. Si possono visualizzare le versioni precedenti di un file e ripristinare o duplicare qualsiasi versione. Le versioni vengono salvate automaticamente e **basta un click per tornare "indietro nel tempo"** (il piano free 30 giorni) e recuperare file, componenti o interi progetti.
 
 
 </div>
 </div>
 
 ---
+
+# After that first experience of sending a Figma link out and seeing others immediately jump in, there is no going back.
+<cite>Bryan Haggerty, Sr. Design Manager at Twitter</cite>
+
+---
+
+<div class="row">
+<div class="col-6 box-shadow align-self-center">
+
+![white label](./assets/figma-4.png)
+
+</div>
+<div class="col-6 text-left align-self-center">
+
+## Parola d'ordine: collaborazione
+
+**Figma facilita la condivisione del lavoro e dei progetti.**
+
+Si può lavorare in tanti sullo stesso progetto nello stesso momento con librerie condivise, condividere i lavori, richiedere feedback, commentare in aree specifiche, dare accessi a copy e dev, per aggiornare testi o addirittura ispezionare il codice e salvare gli assets grafici.
+
+
+</div>
+</div>
+
+---
+
+<div class="row">
+<div class="col-6">
+
+## PRO
+
+- Bassa curva di apprendimento, UI similare ad altri tool
+- Componenti, stili, librerie
+- Griglie e constraints
+- Prototipazione
+- Web API
+- A me personalmente piace tantissimo il loro tono di voce e il loro branding!
+
+</div>
+<div class="col-6" style="border-left: 2px solid #f3f3f3">
+
+## CONTRO
+
+- Non ha plugin, Sketch si
+- Non lo trovo perfetto per lavorare con i vettoriali
+- Pricing non conveniente per tutti gli usi
+- Bisogna essere online per usarlo
+
+</div>
+</div>
