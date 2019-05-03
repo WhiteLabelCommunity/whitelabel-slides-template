@@ -1,14 +1,12 @@
 
 ## Qualche link interessante:
 
-[https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ 🔗](https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ)
+[https://www.figma.com/features/ 🔗](https://www.figma.com/features/)
 
-[https://www.invisionapp.com/inside-design/becoming-a-designer-who-codes/ 🔗](https://www.invisionapp.com/inside-design/becoming-a-designer-who-codes/)
+[https://medium.com/figma-design 🔗](https://medium.com/figma-design)
 
-[https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important 🔗](https://www.fastcompany.com/90320120/john-maeda-in-reality-design-is-not-that-important)
+[https://medium.com/figma-design/introducing-figma-to-react-d2d545cba3cc 🔗](https://medium.com/figma-design/introducing-figma-to-react-d2d545cba3cc)
 
-[https://design.google/library/john-maeda-interview-new-design-religion/ 🔗](https://design.google/library/john-maeda-interview-new-design-religion/)
-
-[https://uxengineer.com/skills-needed-become-a-ux-engineer/ 🔗](https://uxengineer.com/skills-needed-become-a-ux-engineer/)
+[https://www.fastcompany.com/3054382/figma-aims-to-be-a-github-for-designers 🔗](https://www.fastcompany.com/3054382/figma-aims-to-be-a-github-for-designers)
 
 # Grazie!

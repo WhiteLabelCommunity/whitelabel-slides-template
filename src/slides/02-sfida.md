@@ -30,12 +30,12 @@ Può essere usato per gli utilizzi più disparati: biglietti da visita, volantin
 ---
 
 <div class="row">
-<div class="col-6 box-shadow align-self-center">
+<div class="col-5 box-shadow align-self-center">
 
 ![white label](./assets/figma-2.png)
 
 </div>
-<div class="col-6 text-left align-self-center">
+<div class="col-6 offset-1 text-left align-self-center">
 
 ## Figma funziona nel browser
 
@@ -50,12 +50,12 @@ Si può utilizzare nel browser, loggandosi sul sito [figma.com](https://www.figm
 ---
 
 <div class="row">
-<div class="col-6 box-shadow align-self-center">
+<div class="col-5 box-shadow align-self-center">
 
 ![white label](./assets/figma-5.png)
 
 </div>
-<div class="col-6 text-left align-self-center">
+<div class="col-6 offset-1 text-left align-self-center">
 
 ## Components
 
@@ -79,12 +79,12 @@ Abbinati ai constraints (vincoli)... sono una bomba!
 ---
 
 <div class="row">
-<div class="col-6 box-shadow align-self-center">
+<div class="col-5 box-shadow align-self-center">
 
 ![white label](./assets/figma-3.png)
 
 </div>
-<div class="col-6 text-left align-self-center">
+<div class="col-6 offset-1 text-left align-self-center">
 
 ## Version history
 
@@ -102,12 +102,12 @@ Proprio come una repo Git, con Figma si ha una cronologia delle modifiche e vers
 ---
 
 <div class="row">
-<div class="col-6 box-shadow align-self-center">
+<div class="col-5 box-shadow align-self-center">
 
 ![white label](./assets/figma-4.png)
 
 </div>
-<div class="col-6 text-left align-self-center">
+<div class="col-6 offset-1 text-left align-self-center">
 
 ## Parola d'ordine: collaborazione
 
