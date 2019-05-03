@@ -1,0 +1,18 @@
+<svg width="562" height="386" viewBox="0 0 562 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 5C0 2.23858 2.23858 0 5 0H91.5201C91.5201 0 91.5201 0 91.5201 0H557C559.761 0 562 2.23858 562 5V336C562 338.761 559.761 341 557 341H91.5201C91.5201 341 91.5201 341 91.5201 341H5C2.23858 341 0 338.761 0 336V5Z" fill="#303030"/>
+<path d="M0 0H383V16H0V0Z" transform="translate(91 18)" fill="#6F6F6F"/>
+<path d="M0 0H562V330C562 332.761 559.761 335 557 335H5C2.23858 335 0 332.761 0 330V0Z" transform="translate(0 51)" fill="#EBEBEB"/>
+<circle cx="4.5" cy="4.5" r="4.5" transform="translate(19 21)" fill="#F24822"/>
+<circle cx="4.5" cy="4.5" r="4.5" transform="translate(37 21)" fill="#F8D853"/>
+<circle cx="4.5" cy="4.5" r="4.5" transform="translate(55 21)" fill="#00D180"/>
+<path d="M0 0H80V335H5C2.23858 335 0 332.761 0 330V0Z" transform="translate(0 51)" fill="white"/>
+<path d="M0 0H80V335H5C2.23858 335 0 332.761 0 330V0Z" transform="translate(562 51) scale(-1 1)" fill="white"/>
+<path d="M0 32.8251C0 14.7857 14.6238 0 32.6632 0V0C50.703 0 65.3271 14.7853 65.3271 32.8251V32.8251C65.3271 50.8649 50.703 65.6502 32.6632 65.6502V65.6502C14.6238 65.6502 0 50.8645 0 32.8251V32.8251Z" transform="translate(342.672 164.145)" fill="#1ABCFE"/>
+<path d="M0 32.9061C0 14.7773 14.6963 0 32.8251 0H65.3271V32.9867C65.3271 51.0262 50.7031 65.6502 32.6635 65.6502V65.6502C14.624 65.6502 0 50.9457 0 32.9061V32.9061Z" transform="translate(256.771 243.248)" fill="#0ACF83"/>
+<path d="M0 0H65.6502V32.502C65.6502 50.6308 50.9539 65.3271 32.8251 65.3271V65.3271C14.6963 65.3271 0 50.6308 0 32.502V0Z" transform="translate(240.328 116) scale(-1 1) rotate(90)" fill="#FF7262"/>
+<path d="M0 32.8251C0 14.6963 14.6963 0 32.8251 0H65.3271V65.6502H32.8251C14.6963 65.6502 0 50.9539 0 32.8251V32.8251Z" transform="translate(175 181.65) scale(1 -1)" fill="#F24E1E"/>
+<path d="M0 32.8251C0 14.6963 14.6963 0 32.8251 0H65.3271V65.6502H32.8251C14.6963 65.6502 0 50.9539 0 32.8251V32.8251Z" transform="translate(175 247.303) scale(1 -1)" fill="#A259FF"/>
+<rect x="0.5" y="0.5" width="66.0541" height="66.1808" transform="translate(255.344 242.818)" stroke="#30C2FF"/>
+<path d="M8.08485 39.153L0 0L33.8325 20.4393L17.5552 24.8541L8.08485 39.153Z" transform="translate(325 313)" fill="black"/>
+<path d="M0 0L8.08485 39.153L17.5552 24.8541L33.8325 20.4393L0 0Z" transform="translate(325 313)" stroke="white" stroke-width="3.77049" stroke-linecap="square"/>
+</svg>
