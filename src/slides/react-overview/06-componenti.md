@@ -4,16 +4,16 @@ title: "Componenti"
 
 # Componenti
 
+Concettualmente, i componenti sono come funzioni Javascript.
+
+Accettano valori in input, definiti **props**, e restituiscono elementi DOM che descrivono cosa deve comparire sullo schermo.
+
+Lo **stato** di un componente, è un oggetto che determina come esso si renderizza e si comporta.
+In altre parole, è ciò che permette di creare componenti dinamici ed interattivi.
+
 ---
 
-<div class="row">
-<div class="col-6 align-self-center">
-
 ## Scopo
- ![thinking-in-react-components-eb8bda25806a89ebdc838813bdfa3601-82965](https://coggle-images.s3.amazonaws.com/5a881768218c15000116dc55-33d26435-b4ef-46ed-b5dc-2947bdabd151.png) 
-
-</div>
-<div class="col-6 text-left">
 
 * Spezzare applicativo in piccole parti
   * containers - components
@@ -21,9 +21,6 @@ title: "Componenti"
 * Riusabilità del codice
 * Manutenzione del codice
 * Scalabilità
-
-</div>
-</div>
 
 ---
 

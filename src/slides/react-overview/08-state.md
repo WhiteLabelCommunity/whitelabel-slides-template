@@ -19,10 +19,10 @@ title: "Gestione dello stato"
 * Un componente può avere uno stato interno
   ```javascript
   class App extends Component {
-    state = {
-      field: 'value',
-      anotherField: 'anotherValue'
-    }
+      state = {
+        field: 'value',
+        anotherField: 'anotherValue'
+      }
   }
   ```
 * lo stato è immutabile
