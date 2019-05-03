@@ -107,17 +107,19 @@ cite::before {
 
 pre {
   padding: 20px;
-  font-size: 70%;
+  font-size: 15px;
   display: inline-block;
   margin: 2rem 0;
   text-align: left;
   border-radius: 10px;
   scrollbar-width: none;
+  line-height: auto!important;
 }
 
 code {
   font-family: menlo, monospace;
-  font-size: 70%;
+  font-size: 15px;
+  line-height: auto!important;
 }
 
 a:hover {
@@ -265,4 +267,9 @@ footer img {
 
 .box-shadow img {
   box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.73) !important;
+}
+
+li > p {
+  padding: 0;
+  margin: 0;
 }

@@ -31,13 +31,7 @@ title: "Componenti"
 
 ---
 
-<div class="row">
-<div class="col-6 align-self-center">
-
 ## Functional Components
-
-</div>
-<div class="col-6 text-left">
 
 ```javascript
 const Search = ({ value, onChange, children }) => <form>
@@ -50,18 +44,9 @@ const Search = ({ value, onChange, children }) => <form>
     </form>
 ```
 
-</div>
-</div>
-
 ---
 
-<div class="row">
-<div class="col-6 align-self-center">
-
 ## Class Components
-
-</div>
-<div class="col-6 text-left">
 
 ```javascript
 class Hello extends Component {
@@ -78,71 +63,32 @@ class Hello extends Component {
 }
 ```
 
-</div>
-</div>
-
 ---
 
-<div class="row">
-<div class="col-6 align-self-center">
-
 ## Stateless components
-
-</div>
-<div class="col-6 text-left">
 
 * Non prevedono la gestione dello stato interno
 * Possono essere sia Class che Functional Components
 
-</div>
-</div>
-
 ---
 
-<div class="row">
-<div class="col-6 align-self-center">
-
 ## Stateful Components
-
-</div>
-<div class="col-6 text-left">
 
 * Sono sempre Class Components (fino ad oggi)
 * Gestiscono il loro stato internamente
 
-</div>
-</div>
-
 ---
 
-<div class="row">
-<div class="col-6 align-self-center">
-
 ## Presentational Components
-
-</div>
-<div class="col-6 text-left">
 
 * Ricevono proprietà dall'esterno
 * Possono avere uno stato interno
 * Non dialogano con le action o i reducers
 * Potrebbero essere Functional Components
 
-</div>
-</div>
-
 ---
-
-<div class="row">
-<div class="col-6 align-self-center">
 
 ## Containers
 
-</div>
-<div class="col-6 text-left">
-
 * Contengono le logiche di funzionamento ed interfacciamento con action e reducers
 * Passano le proprietà ai Presentational Components
-
-</div>
-</div>
