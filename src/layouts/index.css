@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,500,700,900');
 @import url("../../node_modules/prismjs/themes/prism-tomorrow.css");
 
 :root {
   --bg: #fdfdfd;
   --meta: #888;
-  --accent: #3178cd;
+  --accent: #e63d4f;
   --text: black;
   --base: 1.5rem;
 }
@@ -56,8 +56,12 @@ html {
 #slide ul {
     text-align: left;
     margin-left: 32px;
+    font-size: 80%;
 }
 
+p {
+  font-size: 80%;
+}
 a {
   color: var(--text);
 
@@ -103,17 +107,19 @@ cite::before {
 
 pre {
   padding: 20px;
-  font-size: 70%;
+  font-size: 15px;
   display: inline-block;
   margin: 2rem 0;
   text-align: left;
   border-radius: 10px;
   scrollbar-width: none;
+  line-height: auto!important;
 }
 
 code {
   font-family: menlo, monospace;
-  font-size: 70%;
+  font-size: 15px;
+  line-height: auto!important;
 }
 
 a:hover {
@@ -121,14 +127,14 @@ a:hover {
 }
 
 h1 {
-  font-size: 200%;
-
+  font-size: 180%;
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 120%;
-
+  font-size: 110%;
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
@@ -152,6 +158,15 @@ header {
   padding: 20px;
 
   user-select: none;
+}
+
+header .section {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #e63d4f;
+  text-decoration: underline;
 }
 
 header a,
@@ -244,4 +259,22 @@ footer img {
 .gatsby-highlight pre[class*="language-"] {
   border: 0px;
   min-width: 50%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.box-shadow img {
+  box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.73) !important;
+}
+
+li > p {
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+}
+
+li {
+  font-size:22px;
 }
