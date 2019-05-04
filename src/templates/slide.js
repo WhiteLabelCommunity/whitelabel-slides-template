@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 export default ({ data, transition }) => (
-  <div style={{'width': '100%'}}>
+  <div style={{'width': '75%'}}>
     <div
       style={transition && transition.style}
       dangerouslySetInnerHTML={{ __html: data.slide.html }}
@@ -15,6 +15,7 @@ export const query = graphql`
     slide(index: { eq: $index }) {
       html
       index
+      frontmatter { title }
     }
   }
 `;
