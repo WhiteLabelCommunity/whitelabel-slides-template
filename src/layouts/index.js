@@ -139,6 +139,8 @@ class TemplateWrapper extends Component {
           onSwipedLeft={this.swipeLeft}
           onSwipedRight={this.swipeRight}
         >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
           <Transition location={location}>
             <div id="slide" style={{ 'width': '100%' }}>{children}</div>
           </Transition>
