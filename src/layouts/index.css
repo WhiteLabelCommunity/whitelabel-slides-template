@@ -245,3 +245,16 @@ footer img {
   border: 0px;
   min-width: 50%;
 }
+
+.text-left {
+  text-align: left;
+}
+
+.box-shadow img {
+  box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.73) !important;
+}
+
+code[class*=language-]{
+  font-size: 20px !important;
+  line-height: 1 !important;
+}
