@@ -1,3 +1,7 @@
+---
+title: This is the title of this group of slides
+---
+
 # Designer VS Developer
 
 with a handy subtitle

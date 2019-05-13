@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `Author name`,
-    title: `Designer VS Developer`,
-    date: `06 Aprile 2019`,
-    event: `console.log("Hello World");`,
+    name: `AUTHOR_NAME_HERE`,
+    title: `PRESENTATION_TITLE_HERE`,
+    date: `DATE_HERE`,
+    event: `EVENT_NAME_HERE`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
