@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabio Bozzo`,
-    title: `Google AMP Overview`,
+    name: `Google AMP Overview`,
+    title: `Fabio Bozzo`, 
     date: `01 Giugno 2019`,
-    event: `console.log("Hello AMP!");`,
+    event: `Google AMP Overview`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },

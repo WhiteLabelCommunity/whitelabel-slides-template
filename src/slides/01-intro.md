@@ -1,23 +1,11 @@
----
-title: "Google AMP Overivew"
----
+# Key Points
 
-# Designer VS Developer
+- Quando
 
-with a handy subtitle
+- Cosa
 
----
+- Perché
 
-> Let no man who is not a Mathematician
-> read the elements of my work.
-> <cite>Leonardo Da Vinci</cite>
+- Chi
 
----
-
-## This
-### is
-#### the
-##### end
-###### of file 1
-
----
+- __COME ?__
