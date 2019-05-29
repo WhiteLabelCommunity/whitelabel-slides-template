@@ -50,3 +50,21 @@
 
 </div>
 </div>
+
+--- 
+
+###Purge!
+
+![Purge](./assets/purge.png)
+
+---
+
+###RTFM
+
+- [https://amp.dev/](https://amp.dev/)
+- [https://twitter.com/amphtml](https://twitter.com/amphtml)
+- [https://ampbyexample.com](https://ampbyexample.com)
+- [https://developers.google.com/amp/cache/](https://developers.google.com/amp/cache/)
+- [https://github.com/ampproject/amphtml](https://github.com/ampproject/amphtml)
+- [https://groups.google.com/forum/#!forum/amphtml-discuss](https://groups.google.com/forum/#!forum/amphtml-discuss)
+- [https://stackoverflow.com/questions/tagged/amp-html](https://stackoverflow.com/questions/tagged/amp-html)
