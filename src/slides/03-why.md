@@ -66,6 +66,8 @@
 
 - UX generalmente non all'altezza delle native apps 
 
+<br/>
+
 ##Performance as a feature
 
 **40%** degli utenti abbandonano un sito che impiega più di <br/>**3 secondi** per il suo caricamento.

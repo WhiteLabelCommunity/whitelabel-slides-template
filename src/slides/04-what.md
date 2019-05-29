@@ -79,3 +79,24 @@
 <p>Pre-Rendering</p>
 
 ![Schema2](./assets/caching2.png)
+
+--- 
+
+##AMP Features
+
+####Smart content prioritization
+
+- Prefetching
+- No relayout
+- Asynchronous load
+
+####Responsive di default
+
+- Cerca sempre la migliore versione delle immagini per lo schermo (full srcset support)
+
+
+####Limited by design
+
+- NO custom Javascript (eccetto amp-iframe)
+- No elementi scrolling
+- Max 50kB inline stylesheet
