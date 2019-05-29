@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     name: `White Label`,
-    title: `Titolo`,
-    date: `06 Aprile 2019`,
-    event: `console.log("Hello World");`,
+    title: `La creatività dello sviluppatore`,
+    date: `01 Giugno 2019`,
+    event: `Learn, code, design`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
