@@ -140,6 +140,7 @@ class TemplateWrapper extends Component {
         <Helmet
           title={`${site.siteMetadata.title} — ${site.siteMetadata.name}`}
         />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css" />
         <Header
           // name={site.siteMetadata.name}
           frontmatter={(children.props.data)?children.props.data.slide.frontmatter:{}}

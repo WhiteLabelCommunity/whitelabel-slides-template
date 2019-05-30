@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,500,700,900');
 @import url("../../node_modules/prismjs/themes/prism-tomorrow.css");
 
 :root {
   --bg: #fdfdfd;
   --meta: #888;
-  --accent: #3178cd;
+  --accent: #e63d4f;
   --text: black;
   --base: 1.5rem;
 }
@@ -56,8 +56,12 @@ html {
 #slide ul {
     text-align: left;
     margin-left: 32px;
+    font-size: 80%;
 }
 
+p {
+  font-size: 80%;
+}
 a {
   color: var(--text);
 
@@ -121,14 +125,14 @@ a:hover {
 }
 
 h1 {
-  font-size: 200%;
-
+  font-size: 180%;
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 120%;
-
+  font-size: 110%;
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
@@ -253,4 +257,12 @@ footer img {
 .gatsby-highlight pre[class*="language-"] {
   border: 0px;
   min-width: 50%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.box-shadow img {
+  box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.73) !important;
 }
