@@ -82,7 +82,8 @@
 
 --- 
 
-##AMP Features
+<div class="row">
+<div class="col-6">
 
 ####Smart content prioritization
 
@@ -90,13 +91,23 @@
 - No relayout
 - Asynchronous load
 
-####Responsive di default
-
-- Cerca sempre la migliore versione delle immagini per lo schermo (full srcset support)
-
+</div>
+<div class="col-6">
 
 ####Limited by design
 
 - NO custom Javascript (eccetto amp-iframe)
 - No elementi scrolling
 - Max 50kB inline stylesheet
+
+</div>
+
+<div class="row">
+<div class="col-12">
+
+####Responsive di default
+
+- Cerca sempre la migliore versione delle immagini per lo schermo (full srcset support)
+
+</div>
+</div>

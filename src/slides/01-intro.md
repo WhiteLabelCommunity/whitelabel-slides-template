@@ -23,8 +23,6 @@
 </div>
 </div>
 
-E-Mail: <a href="mailto:fabio.bozzo@gmail.com">fabio.bozzo@gmail.com</a>
-
 ---
 
 # Key Points

@@ -14,10 +14,14 @@
 
 [iene.mediaset.it](https://www.iene.mediaset.it)
 
+<div class="row">
+<div class="col-6">
+
 ![iene.mediaset.it](./assets/iene2.png)
 
----
-
-[iene.mediaset.it](https://www.iene.mediaset.it)
+</div>
+<div class="col-6">
 
 ![iene.mediaset.it](./assets/iene1.png)
+
+</div>
