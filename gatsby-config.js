@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `Google AMP Overview`,
-    title: `Fabio Bozzo`, 
+    name: `White Label`,
+    title: `Google AMP Overview`, 
     date: `01 Giugno 2019`,
-    event: `Google AMP Overview`,
+    event: `Learn, code, design`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
