@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `AUTHOR_NAME_HERE`,
-    title: `PRESENTATION_TITLE_HERE`,
-    date: `DATE_HERE`,
-    event: `EVENT_NAME_HERE`,
+    name: `White Label`,
+    title: `Wordpress vs Custom CMS`,
+    date: `01 Giugno 2019`,
+    event: `Learn, Code, Design`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
