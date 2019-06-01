@@ -1,23 +1,38 @@
----
-title: "CIAO"
----
-
-# Designer VS Developer
-
-with a handy subtitle
+#Google AMP
+###Accelerated Mobile Pages
 
 ---
 
-> Let no man who is not a Mathematician
-> read the elements of my work.
-> <cite>Leonardo Da Vinci</cite>
+###whoami
+
+<div class="row">
+<div class="col-4">
+
+![ME](./assets/fabiob.jpg)
+
+</div>
+<div class="col-8">
+
+#Fabio Bozzo
+
+* **Web Dev**
+* not-only e-commerce
+* Me: @fabiobozzo
+* E-Mail: fabio.bozzo@gmail.com
+
+</div>
+</div>
 
 ---
 
-## This
-### is
-#### the
-##### end
-###### of file 1
+# Key Points
 
----
+######Quando
+
+######Perché
+
+######Cosa
+
+######Chi
+
+######__COME ?__
