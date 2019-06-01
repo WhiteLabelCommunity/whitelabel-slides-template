@@ -1,23 +1,39 @@
 ---
-title: This is the title of this group of slides
+title: Wordpress vs Custom CMS
 ---
 
-# Designer VS Developer
+# Sicurezza
 
-with a handy subtitle
 
----
-
-> Let no man who is not a Mathematician
-> read the elements of my work.
-> <cite>Leonardo Da Vinci</cite>
 
 ---
 
-## This
-### is
-#### the
-##### end
-###### of file 1
+# Customizzazione
+
+
+
+---
+
+# Performance
+
+
+
+---
+
+# Costi
+
+
+
+---
+
+# Competenze tecniche
+
+
+
+---
+
+# Campi di applicazione
+
+
 
 ---
