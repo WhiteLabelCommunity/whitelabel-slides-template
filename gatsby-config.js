@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `AUTHOR_NAME_HERE`,
-    title: `PRESENTATION_TITLE_HERE`,
-    date: `DATE_HERE`,
-    event: `EVENT_NAME_HERE`,
+    name: `Andrea Peretti`,
+    title: `Introduzione ai Game Engine`,
+    date: `12 Ottobre 2019`,
+    event: `White Label Meetup`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
