@@ -67,10 +67,25 @@ title: Introduzione ai Game Engines 2
 
 ---
 
-> Ciò non significa che ogni gioco è fatto utilizzando un game engine di questo elenco.
+# Altri Game Engines:
+## Game Maker
+ ![GameMaker Logo](./gamemaker.jpg)
 
-> Un gioco può avere un Engine ad-hoc creato appositamente da zero, oppure un engine esistente modificato appositamente.
+![Undertale](./undertale.jpg) ![Niddhog](./nidhogg.jpg)
 
+## RPG Maker
+ ![RPG Maker Logo](./rpgmaker.jpg)
+![To the moon](./to-the-moon.jpg) 
+
+---
+
+# Note:
+
+1) Ciò non significa che ogni gioco è fatto utilizzando un game engine di questo elenco.
+
+2) Un gioco può avere un Engine ad-hoc creato appositamente da zero, oppure un engine esistente modificato appositamente.
+
+---
 
 We can have images, cool!
 
