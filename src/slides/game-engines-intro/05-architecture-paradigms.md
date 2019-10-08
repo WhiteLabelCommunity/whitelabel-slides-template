@@ -1,6 +1,38 @@
 ---
 title: Introduzione ai Game Engines 2 
 ---
+# Game Engines
+
+In realtà implementare il game loop è un problema comune a tutti i videogiochi
+
+---
+
+# Cos'è e a cosa serve un game engine?
+
+---
+
+# Cos'è e a cosa serve un game engine?
+## A game engine is a software-development environment designed for people to build video games
+(Wikipedia English)
+(esiste di sicuro una definizione migliore...)
+
+---
+
+
+# Cos'è e a cosa serve un game engine?
+## Il motore grafico è il nucleo software di un videogioco o di qualsiasi altra applicazione con grafica in tempo reale
+(Wikipedia Italia)
+
+---
+
+# Cos'è e a cosa serve un game engine?
+## Il motore grafico è il nucleo software di un videogioco o di qualsiasi altra applicazione con grafica in tempo reale
+
+Esso fornisce le tecnologie di base, semplifica lo sviluppo,
+ e spesso permette al gioco di funzionare su piattaforme differenti come le console o sistemi operativi per personal computer. 
+
+La funzionalità di base fornita tipicamente da un motore grafico include un motore di rendering ("renderer") per grafica 2D e 3D,
+ un motore fisico o rilevatore di collisioni, suono, scripting, animazioni, intelligenza artificiale, networking, e scene-graph.
 
 # Esempi di Game Engines:
 ## Valve's Source Engine
@@ -84,22 +116,3 @@ title: Introduzione ai Game Engines 2
 1) Ciò non significa che ogni gioco è fatto utilizzando un game engine di questo elenco.
 
 2) Un gioco può avere un Engine ad-hoc creato appositamente da zero, oppure un engine esistente modificato appositamente.
-
----
-
-We can have images, cool!
-
-![white label](./assets/white-label.jpg)
-
-[White label](//whitelabel.community)
-
----
-
-![Monkey](//i.imgur.com/PnbINJ6.gif)
-
-```js
-function printCode(){
-    var code = "Code snippet";
-    console.log("code: ",code);
-}
-```
