@@ -1,7 +1,7 @@
 ---
 title: Introduzione ai Game Engines 2 
 ---
-# Programmazione tramite ereditarietà
+# Ereditarietà
 
 ---
 
@@ -9,3 +9,4 @@ title: Introduzione ai Game Engines 2
 
 --
 
+# Entity Component System
