@@ -22,7 +22,7 @@ Invece il comportamento degli oggetti di gioco (funzione Update()) cambia da gio
 
 
 # Cos'è e a cosa serve un game engine?
-## Il motore grafico è il nucleo software di un videogioco o di qualsiasi altra applicazione con grafica in tempo reale
+## Un game engine è il nucleo software di un videogioco o di qualsiasi altra applicazione con grafica in tempo reale
 (Wikipedia Italia)
 
 ---

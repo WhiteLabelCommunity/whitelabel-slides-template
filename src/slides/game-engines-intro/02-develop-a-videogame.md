@@ -53,7 +53,7 @@ while(!ExitCommandReceived())
 ---
 
 # Update (sbagliato)
-## Andiamo a calcorare il nuovo stato degli elementi di gioco
+## Andiamo a calcolare il nuovo stato degli elementi di gioco
 Ad esempio, immaginiamo un gioco di corse: vogliamo far muovere un'auto in moto rettilineo uniforme.
 Dobbiamo cambiare la posizione della macchina, aggiungendo la velocità:
 
