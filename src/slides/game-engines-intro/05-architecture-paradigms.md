@@ -50,11 +50,17 @@ E se volessimo creare un uomo pesce, che nuota e lavora?
 
 # Siamo felici con la composition, quando, ad un certo punto... 
 
-![oop dead1](./oop-dead1.jpg)
+![oop dead1](./oop-dead1.png)
 
-![oop dead2](./oop-dead2.jpg)
+![oop dead2](./oop-dead2.png)
 
-![oop dead3](./oop-dead3.jpg)
+![oop dead3](./oop-dead3.png)
+
+---
+
+# Ottimizzazione della memoria
+
+![Processor caches2](./processor-caches2.png)
 
 ---
 
