@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `AUTHOR_NAME_HERE`,
-    title: `PRESENTATION_TITLE_HERE`,
-    date: `DATE_HERE`,
-    event: `EVENT_NAME_HERE`,
+    name: `White Label`,
+    title: `The great Gatsby.js`,
+    date: `16 Novembre 2019`,
+    event: `Headless is the new black`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
