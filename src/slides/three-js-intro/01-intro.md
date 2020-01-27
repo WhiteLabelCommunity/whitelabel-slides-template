@@ -1,10 +1,10 @@
 ---
-title: Introduzione ai Game Engines
+title: Introduzione a three.js
 ---
 
-# Game Engines
+# Three.js
 
-## Un'introduzione ai "motori sotto il cofano" dei più recenti videogiochi
+## Un'introduzione alla libreria di rendering per il web
 
 --- 
 

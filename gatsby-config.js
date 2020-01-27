@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     name: `Andrea Peretti`,
-    title: `Introduzione ai Game Engine`,
-    date: `12 Ottobre 2019`,
+    title: `Introduzione a three.js`,
+    date: `1 Febraio 2020`,
     event: `White Label Meetup`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,

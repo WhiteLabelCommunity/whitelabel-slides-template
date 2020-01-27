@@ -13,7 +13,7 @@ $ yarn
 
 ## Usage
 
-Create a new floder named after your presentation's name  inside the `src/slides` floder.
+Create a new folder named after your presentation's name  inside the `src/slides` floder.
 
 Create a markdown file e.g. `src/slides/name-of-your-presentation/01.md`
 
