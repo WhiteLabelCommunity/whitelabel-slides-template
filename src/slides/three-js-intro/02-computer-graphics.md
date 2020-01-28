@@ -38,6 +38,78 @@ La definizione che possiamo trovare sul sito:
 
 ---
 
+## Three.js kickstart
+
+Progetto d'esempio del tutorial di Three.js ![link](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<script src="js/three.js"></script>
+        <!-- possiamo anche usare un CDN: 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/58/three.min.js"></script>
+         -->
+		<script>
+			// Our Javascript will go here.
+		</script>
+	</body>
+</html>
+
+```
+
+
+---
+
+## Three.js kickstart
+
+```javascript
+//Inizializziamo Three.js
+var scene = new THREE.Scene();
+var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+var renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+
+//Aggiungiamo qualcosa da vedere
+var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+var cube = new THREE.Mesh( geometry, material );
+scene.add( cube );
+
+//Riposizioniamo la camera
+camera.position.z = 5;
+
+```
+
+---
+
+## Three.js kickstart
+
+Ed ora, l'equivalente del *Game Loop*
+
+```javascript
+function animate() {
+    requestAnimationFrame( animate );
+    
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
+
+	renderer.render( scene, camera );
+}
+animate();
+
+---
+
 ## Matematica 3D
 
 ![intro-math](./intro-math.gif)
