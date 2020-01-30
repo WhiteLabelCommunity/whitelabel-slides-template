@@ -1,9 +1,5 @@
 ---
-title: Introduzione ai Game Engines
----
-
-# Demo
-
+title: Introduzione a Three.js
 ---
 
 # Grazie!
