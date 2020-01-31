@@ -8,8 +8,7 @@ title: three.js
 
 La definizione che possiamo trovare sul sito:
 
-> Three.js è una libreria JavaScript e un API cross-browser utilizzata
-> per creare e visualizzare grafica computerizzata 3D animata in un browser Web.
+> Three.js è una libreria JavaScript e un API cross-browser utilizzata per creare e visualizzare grafica computerizzata 3D animata in un browser Web.
 
 ---
 
@@ -17,20 +16,20 @@ La definizione che possiamo trovare sul sito:
 
 ![three-logo](three-logo.png)
 
-- Creare una scena in cui posizionare oggetti 3D (è uno scene graph)
-- Posizionare luci e telecamere
-- Applicare materiali ad oggetti 3D
-- Caricare assets (immagini, modelli, font, ecc...)
-- Animare gli oggetti in scena
-- Fare calcoli matematici con vettori, matrici, quaternioni ecc...
+- Creare una scena in cui posizionare oggetti 3D (è uno **scene graph**)
+- Posizionare **luci** e **telecamere**
+- Applicare **materiali** ad oggetti 3D
+- Caricare **assets** (immagini, modelli, font, ecc...)
+- **Animare** gli oggetti in scena
+- Fare **calcoli matematici** con vettori, matrici, quaternioni ecc...
 
 ---
 
 ## Che tipo di tool è Three.js?
 
-- Utilizza WebGL per renderizzare
-- Non è un game engine, infatti permette "solo" di renderizzare oggetti 3D
-- Non esiste il concetto di "attori" e "componenti"
+- Utilizza **WebGL** per renderizzare
+- **Non è un game engine**, infatti permette "solo" di renderizzare oggetti 3D
+- Non esiste il concetto di **attori** e **componenti**
 
 [Full size](./engine-arch.jpg)
 
@@ -50,7 +49,7 @@ La definizione che possiamo trovare sul sito:
 
 Cosa fa un rendering engine?
 
-### ** Disegna cose. **
+### *Disegna cose.*
 
 Astrae a vari livelli le richieste alla scheda video di disegnare primitive o modelli 3D con effetti complessi.
 
@@ -59,7 +58,7 @@ Astrae a vari livelli le richieste alla scheda video di disegnare primitive o mo
 ## Come funziona il processo di rendering?
 
 Tutto quello che è presente in scena e non visto dalla telecamera viene scartato.
-Quello che è visibile, viene inserito in un cubo, in questo modo si ha un input facilme
+Quello che è visibile, viene elaborato dalla scheda video.
 
 ![frustum](./frustum2.png)
 
@@ -69,9 +68,9 @@ Quello che è visibile, viene inserito in un cubo, in questo modo si ha un input
 
 ![pipeline](./pipeline.png)
 
-Le schede video implementano una pipeline per aumentare la velocità.
-La pipeline grafica conta numerosi blocchi, di cui alcuni programmabili tramite gli *shader*
-Il risultato dei calcoli viene scritto sul *frame buffer*, che si trova sulla memoria video.
+Le schede video implementano una **pipeline** per aumentare la velocità.
+La pipeline grafica conta numerosi blocchi, di cui alcuni **programmabili** tramite gli *shader*.
+Il risultato dei calcoli viene scritto sul *frame buffer*, che si trova **sulla memoria video**.
 
 ---
 
@@ -84,8 +83,7 @@ Il risultato dei calcoli viene scritto sul *frame buffer*, che si trova sulla me
 ## Sistemi di riferimento
 
 Per poter "piazzare" oggetti in una scena, abbiamo bisogno di rappresentare la loro posizione.
-In computer grafica, si rappresenta uno spazio 3D tramite un origine e 3 assi orientati perpendicolari
-tra di loro, chiamati *x*, *y* e *z*.
+In computer grafica, si rappresenta uno spazio 3D tramite un origine e 3 assi orientati perpendicolari tra di loro, chiamati *x*, *y* e *z*.
 
 Ogni posizione nello spazio sarà rappresentata da un vettore con tre componenti.
 
@@ -96,8 +94,9 @@ Ogni posizione nello spazio sarà rappresentata da un vettore con tre componenti
 
 ## Sistemi di riferimento 2
 
-- Local space e world space
-- Sistema di coordinate (left handed, right handed)
+
+- **Local space** e **world space**
+- Sistema di coordinate (**left handed**, **right handed**)
 
 ---
 
@@ -109,7 +108,7 @@ Sono principalmente:
 - Scalamento
 - Rotazione
 
-Ogni oggetto in scena possiede queste tre proprietà.
+Ogni oggetto in scena possiede queste tre proprietà, in un oggetto chiamato **transform**.
 
 ---
 
@@ -117,27 +116,33 @@ Ogni oggetto in scena possiede queste tre proprietà.
 
 Nel caso in cui volessimo spostare un oggetto nello spazio, possiamo utilizzare la somma vettoriale:
 
+![somma-vettoriale](./somma-vettoriale.png)
+
 Per trovare la distanza tra due oggetti, la differenza:
+
+![differenza-vettoriale](./differenza-vettoriale.png)
 
 ---
 
 ## Scalamento
 
-Per ingrandire o rimpicciolire un oggetto andiamo a settare la sua scala tramite un vettore a tre componenti.
+Per *ingrandire* o *rimpicciolire* un oggetto andiamo a settare la sua scala tramite un **vettore a tre componenti**.
 Se vogliamo scalare un oggetto in maniera omogenea (stesso valore per tutti gli assi) posso moltiplicare la scala per uno scalare.
 
 ---
 
 ## Rotazione
 
-- Angoli di Eulero, più intuitivi ma soffrono del problema del gimbal lock
-- Quaternioni
+- **Angoli di Eulero**, più intuitivi ma soffrono del problema del gimbal lock
+- **Quaternioni**
+
+![rotazione](./rotazione.png)
 
 ---
 
 ## Matrice di trasformazione
 
-Per rappresentare una serie di trasformazioni nello spazio 3D è possibile utilizzare una matrice 4x4.
+Per rappresentare una serie di trasformazioni nello spazio 3D è possibile utilizzare una **matrice 4x4**.
 
 ![matrice-trasformazione](./transform-matrix.jpg)
 
@@ -147,16 +152,22 @@ Per rappresentare una serie di trasformazioni nello spazio 3D è possibile utili
 
 ![math](./confused-math-girl.gif)
 
-TODO: link a sito
+[Algebra lineare su YouMath](https://www.youmath.it/lezioni/algebra-lineare.html)
+
+[Matrici e vettori (inglese)](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/)
 
 ---
 
 Ora che sappiamo come funziona il rendering, vediamo come funziona Three.js!
 
+## Preparate i vostri PC!
+
+---
+
 Scaricate il progetto da:
 [https://www.github.com/andxet/three-lab](https://www.github.com/andxet/three-lab)
 
-Aprite la cartella *quickstart*
+Lanciate il server web, e partiamo dalla cartella *00 quickstart*.
 
 ---
 
@@ -246,7 +257,12 @@ Da questo oggetto è possibile impostare il colore di sfondo.
 ## La telecamera
 
 ```javascript
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+var camera = new THREE.PerspectiveCamera( 
+	75,
+	window.innerWidth / window.innerHeight,
+	0.1,
+	1000
+);
 
 ```
 
@@ -260,7 +276,8 @@ var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHe
 
 ## La telecamera
 
-![camera-prosp](./cameras-graphic.jpg) 
+### Prospettica o ortografica
+![camera-prosp](./cameras-graphic.gif) 
 ![camera-ortho](./cameras-example.jpg)
 
 ---
@@ -278,7 +295,7 @@ var camera = new THREE.PerspectiveCamera( FOV, ASPECT_RATIO, NEAR_PLANE, FAR_PLA
 [DOC](https://threejs.org/docs/#api/en/cameras/OrthographicCamera)
 
 ```javascript
-var camera = new THREE.OrthographicCamera( FOV, ASPECT_RATIO, NEAR_PLANE, FAR_PLANE );
+var camera = new THREE.OrthographicCamera( LEFT, RIGHT, TOP, BOTTOM, NEAR, FAR );
 ```
 
 ---
@@ -292,7 +309,7 @@ document.body.appendChild( renderer.domElement );
 
 ```
 
-Il renderer è l'oggetto che si occupa di ottenere le informazioni dall'oggetto scena, trasformare gli oggetti in primitive e disegnarli con l'aiuto di *WebGL*.
+Il renderer è l'oggetto che si occupa di **trasformare gli oggetti della scena in primitive** e **disegnarli** tramite *WebGL*.
 
 Ha bisogno di conoscere la risoluzione a cui renderizzare. Per vedere il risultato ci basta aggiungere la proprietà *domElement* al *DOM* della nostra pagina.
 
@@ -317,12 +334,12 @@ Una mesh è un oggetto 3D che è possibile visualizzare all'interno di una scena
 - Una geometria
 - Un materiale (vedremo dopo cosa sono)
 
-Una mesh è un *Object3D*, una classe generica di Three.js che rappresenta un oggetto piazzabile in scena.
-Ogni object 3D può essere inserito come si preferisce all'interno dell'albero della scena.
+Una mesh è un **Object3D**, una classe generica di Three.js che rappresenta un oggetto piazzabile in scena.
+Ogni object 3D può essere inserito come si preferisce all'interno dell'**albero della scena**.
 Una mesh ha una matrice che rappresenta la sua posizione secondo il sistema di riferimento del padre,
-ossia l'origine del nodo padre (coordinate locali).
+ossia l'origine del nodo padre (**coordinate locali**).
 
-Per ottenere le coordinate globali, Three.js moltiplica tutte le matrici, dai nodi foglia al nodo padre.
+Per ottenere le coordinate globali, Three.js moltiplica tutte le matrici, dai **nodi foglia al nodo padre**.
 
 ---
 
@@ -383,12 +400,32 @@ Ad esempio:
 
 ## Andiamo ad aggiornare gli elementi in scena
 
-Quanto tempo è passato?
+Ad ogni step della simulazione cambiamo leggermente lo stato degli oggetti.
+(è molto simile al concetto degli integrali!)
+
+```javascript
+function animate() {
+    requestAnimationFrame( animate );
+    
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
+
+	renderer.render( scene, camera );
+}
+animate();
+```
 
 ---
 
-Ad ogni step della simulazione cambiamo leggermente lo stato degli oggetti.
-(è molto simile al concetto degli integrali!)
+## Un piccolo discorso sul tempo...
+
+Questa linea di codice appartiene all'oggetto Window, [gestito dal browser](https://developer.mozilla.org/it/docs/Web/API/Window/requestAnimationFrame), non fa quindi parte di Three.js.
+```javascript
+requestAnimationFrame( animate );
+```
+Serve a richiedere al browser di **eseguire una callback ad ogni render della pagina**, tipicamente **60 frames** al secondo.
+Solitamente, viene fornito dal game engine o dalla libreria un modo per ottenere il tempo passato dal frame precedentemente, il così detto **Delta Time**, ma con Three.js questo non è automatico.
+Per chi vuole approfondire, veda la documentazione di [Clock](https://threejs.org/docs/#api/en/core/Clock)
 
 ---
 
@@ -432,7 +469,7 @@ Aggiungiamo una luce alla scena:
 
 ```javascript
 var light = new THREE.HemisphereLight( 0xffffff, 0.5 );
-	scene.add(light );
+scene.add(light );
 ```
 
 ---
@@ -459,102 +496,3 @@ Potete trovare l'esercizio finito nella cartella *01 materials*.
 ---
 
 ## Break?
-
----
-
-## Creiamo la Terra in 3D!
-
-Partendo dal progetto in *01 materials*, effettuiamo le seguenti modifiche:
-
-![firstTexture](./02texture01.jpg)
-
-- Sostituiamo il cubo con una [sfera](https://threejs.org/docs/index.html#api/en/geometries/SphereGeometry) bianca, 32x32 segmenti
-- Sostituiamo la luce con una [luce direzionale](https://threejs.org/docs/index.html#api/en/lights/DirectionalLight)
-- Posizioniamo la luce in (6,0,5)
-- Facciamo puntare la luce verso la sfera (utilizzate l'attributo *target*) 
-- Fare in modo che la sfera ruoti attorno l'asse Z nella funzione di update
-- Fare in modo che la rotazione attorno l'asse X sia sempre di 23, come l'inclinazione dell'asse terrestre. Attenzione, bisogna [convertire in radianti](https://threejs.org/docs/index.html#api/en/math/Math.degToRad)!
-
----
-
-## Creiamo la terra in 3D!
-
-Abbiamo creato una una sfera che è influenzata dalla luce.
-Per farla somigliare un po' di più alla terra, abbiamo bisogno di applicare una [texture](https://threejs.org/docs/index.html#api/en/textures/Texture)!
-
-Nella cartella *img* del progetto sono presenti 3 immagini, che utilizzeremo come textures.
-Fonte: [http://planetpixelemporium.com/earth.html](http://planetpixelemporium.com/earth.html)
-
----
-
-## Creiamo la terra in 3D!
-
-Per caricare assets (modelli 3d, textures, audio ecc...) in Three.js, abbiamo bisogno di un Loader che si occupi di caricare il tipo di asset a cui siamo interessati.
-
-Quello che interessa a noi si chiama, casualmente, [TextureLoader](https://threejs.org/docs/#api/en/loaders/TextureLoader):
-
-```javascript
-var texture = new THREE.TextureLoader().load( 'img/earth.jpg' );
-```
-
-Poi assegnamo la texture al materiale:
-
-```javascript
-var material = new THREE.MeshPhongMaterial( { map: texture } );
-```
-
----
-
-## Textures
-
-Esistono altri tipi di textures, dette anche *mappe*, che danno effetti differenti alla superficie dei modelli 3D:
-- Diffuse (Quella che abbiamo utilizzato ora)
-- Emission
-- Bump map
-- Normal map
-- Specular map
-
-e altro, vedi [questa pagina](https://www.reallusion.com/iClone/help/iclone3/15_Multiple_Channel_Texture_Mapping/Types_of_maps.htm)
-
----
-
-## Creiamo la terra in 3D!
-
-Abbiamo a disposizione una *Bump Map* ed una *Specular map*. Utilizziamole!
-
-- Carichiamo ed aggiungiamo al materiale la *Bump Map* (consiglio: provate a modificare il *bumpScale*).
-- Carichiamo ed aggiungiamo al material la *Specular Map*.
-
-Per assegnare il materiale alle texture, utilizziamo la documentazione del [MeshPhongMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshPhongMaterial).
-
----
-
-## La terra in 3D!!
-
-![terra finita](./02texture02.jpg)
-
----
-
-## BONUS
-
-Three.js offre anche un editor di scena online, all'indirizzo [https://threejs.org/editor/](https://threejs.org/editor/).
-
-Provate a ricreare lo stesso risultato che avete ottenuto con il codice, ma:
-
-- Se volete, usate texture più grandi, sono nella cartella *03 editor/img*
-- Create la luna, applicategli le texture, e fatela ruotare attorno la terra
-- Create il sole, applicategli la texture, fate in modo che funga da luce per illuminare la terra e la luna
-- Attivate le ombre per proiettare dei fantastici eclissi pixellosi sulla terra
-- Cambiate lo sfondo, fate in modo che non sia a tinta unica, usate la texture della via lattea
-
-Il mio progetto lo trovate in 05 solarsystem.
-
----
-
-## BONUS DEL BONUS
-
-Sbizzarritevi, provate a pensare ad una funzionalità e provate ad implementarla. Ad esempio:
-
-- Fate ruotare la terra attorno il sole
-- Fate ruotare un satellite artificiale attorno la terra. Cercate su internet il modello!
-- Mettete altri pianeti. Come si possono fare gli anelli di Saturno?
