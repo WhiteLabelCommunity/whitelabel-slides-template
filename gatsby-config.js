@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `AUTHOR_NAME_HERE`,
-    title: `PRESENTATION_TITLE_HERE`,
-    date: `DATE_HERE`,
-    event: `EVENT_NAME_HERE`,
+    name: `Andrea Peretti`,
+    title: `Introduzione a three.js`,
+    date: `1 Febraio 2020`,
+    event: `White Label Meetup`,
     logo: `./logo.jpg`,
     sponsor: `./sponsor.jpg`,
   },
