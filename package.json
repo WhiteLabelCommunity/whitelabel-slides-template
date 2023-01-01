@@ -4,11 +4,11 @@
   "version": "2.0.0",
   "author": "Fabian Schultz <desk@fabianschultz.com>",
   "dependencies": {
-    "gatsby": "^2.0.33",
+    "gatsby": "^5.3.3",
     "gatsby-plugin-layout": "^1.0.1",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sass": "^6.3.1",
     "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-remark-copy-images": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^2.0.7",
